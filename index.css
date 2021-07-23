@@ -1,0 +1,246 @@
+#navbarNav {
+  justify-content: flex-end;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #fafafa;
+}
+#block1 {
+  background: url(./img/5_6318975788200755975\ 1.png) no-repeat center
+    center/cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.head {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 55px; */
+  line-height: 69px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+}
+span {
+  color: #d6562c;
+}
+.para {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  /* font-size: 25px; */
+  line-height: 38px;
+  color: #7e7e7e;
+}
+.para-sm{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 38px;
+  color: #7e7e7e;
+}
+.orange{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 38px;
+  color: #d6562c;
+}
+#us {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#us li {
+  list-style-image: url(./img/Vector.png);
+}
+.subhead {
+  font-family: " Merriweather";
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 52px; */
+  line-height: 65px;
+  text-align: center;
+  color: #d6562c;
+  border-bottom: 3px solid #7e7e7e;
+  width: fit-content;
+  padding: 0 1rem;
+  align-self: center;
+  margin: auto;
+}
+.font-44 {
+  /* font-size: 40px; */
+  font-family: " Merriweather";
+  font-style: normal;
+  font-weight: normal;
+  color: #d6562c;
+  text-align: center;
+  /* line-height: 65px; */
+}
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.c {
+  width: 400px;
+  height: 500px;
+  background: #fafafa;
+  box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.c-sm {
+  width: 400px;
+  /* min-height: 200px; */
+  background: #fafafa;
+  box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.cus-btn {
+  width: 188px;
+  height: 52px;
+  outline: none;
+  border: 1px solid #d6562c;
+  background: none;
+  border-radius: 50px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #d6562c;
+}
+.cus-btn-clr {
+  width: 188px;
+  height: 52px;
+  outline: none;
+  border: 1px solid #d6562c;
+  background: #d6562c;
+  border-radius: 50px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 47px;
+  text-align: center;
+  color: white;
+}
+.rec{
+    border-radius: 10px;
+}
+#services{
+    padding: 2rem 0rem;
+}
+#services p{
+    text-align: center;
+}
+#services a{
+    text-decoration: none;
+    color: white;
+}
+#us a{
+    text-decoration: none;
+    color: white;
+    padding: 0.75rem;
+}
+#booknow{
+    background-color: #d6562c;
+    color: white !important;
+    font-size: 20px;
+    padding: 3rem;
+    text-align: center;
+}
+#aboutus{
+    text-align: center;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center ;
+    flex-flow: column;
+    display: flex;
+    padding: 2rem 0rem;
+}
+.accordion-button:not(.collapsed) {
+    color: #d6562c;
+    background-color: #d6572c23;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #d6562c;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #d6572c25;}
+#faqs{
+    text-align: center;
+    height: 100%;
+}
+footer{
+    color: #7e7e7e !important;
+    font-family:"Merriweather" !important;
+}
+.text-white{
+    color: #7e7e7e !important;
+    text-decoration: none;
+}
+.text-uppercase{
+    text-transform: capitalize !important;
+    margin-bottom: 1rem;
+}
+.modal-body li{
+  list-style-image: url(./img/Vector.png);
+}
+@media (max-device-width:500px){
+    .para{
+        font-size: 10px !important;
+        line-height: 2;
+        /* list-style: circle !important; */
+    }
+    .para-sm{
+        font-size: 10px !important;
+        line-height: 2;
+    }
+    /* .c{
+        width: auto;
+        height: auto;
+    } */
+    .c-sm{
+        width: auto;
+        height: auto;
+    }
+    .col-5{
+        display: none;
+    }
+    .col-7{
+        text-align: center;
+        width: 100%;
+    }
+    .col-6{
+      width: 100%;
+    }
+    #us{
+      height: auto;
+    }
+    #booknow .row{
+      display: block !important;
+    }
+}
