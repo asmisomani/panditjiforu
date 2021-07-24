@@ -127,7 +127,7 @@ span {
 }
 
 .c-sm {
-  width: 400px;
+  max-width: 400px;
   background: #fafafa;
   box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
@@ -286,10 +286,10 @@ footer, footer ul{
         width: auto;
         height: auto;
     } */
-    .c-sm{
+    /* .c-sm{
         width: auto;
         height: auto;
-    }
+    } */
     .col-5{
         display: none;
     }
