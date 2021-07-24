@@ -120,6 +120,10 @@ span {
   gap: 5rem;
 }
 
+.modal ul li{
+    text-transform: capitalize;
+}
+
 .c {
   width: 400px;
   height: 500px;
