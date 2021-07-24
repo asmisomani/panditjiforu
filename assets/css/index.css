@@ -20,7 +20,7 @@ a:hover{
 
 #block1 {
   /*background: url("../img/BookNow.png") no-repeat center*/
-    center/cover;
+    /* center/cover; */
   position: relative;
   max-width: 100%;
   height: auto;
@@ -139,8 +139,8 @@ span {
 }
 
 .c img{
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 .cus-btn {
@@ -202,7 +202,7 @@ span {
     background-color: #d6562c;
     color: white !important;
     font-size: 20px;
-    padding: 3rem;
+    padding: 3rem 1rem;
     text-align: center;
 }
 
@@ -305,5 +305,9 @@ footer, footer ul{
     }
     #booknow .row{
       display: block !important;
+    }
+    .row{
+      --bs-gutter-x: 0; 
+     --bs-gutter-y: 0;
     }
 }
