@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
     max-width: 100%;
 }
 
@@ -240,6 +242,10 @@ span {
 footer, footer ul{
     color: #7e7e7e !important;
     font-family:"Merriweather" !important;
+}
+
+footer ul li{
+    line-height: 2;
 }
 
 .footerHr{
